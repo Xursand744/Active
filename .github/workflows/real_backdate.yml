@@ -1,4 +1,4 @@
-name: Super Realistic 160 Days Activity
+name: Super Realistic 200 Days Activity
 
 on:
   workflow_dispatch:
@@ -12,13 +12,13 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Create 160 Days Activity
+      - name: Create 200 Days Activity
         run: |
           # Sizning emailingiz va ismingiz sozlandi
-          git config --local user.email "xursandmadaminov19952@gmail.com"
-          git config --local user.name "xursand"
+          git config --local user.email "xursandmadaminov1995@gmail.com"
+          git config --local user.name "xursand744"
           
-          for i in {160..1}
+          for i in {200..1}
           do
             # Hafta kunini aniqlaymiz (1-5 ish kunlari, 6-7 dam olish)
             DAY_OF_WEEK=$(date -d "$i days ago" +%u)
